@@ -1,0 +1,23 @@
+{
+  "name": "modulo_03_novo_node_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfka/modulo_03_novo_node_final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rfka/modulo_03_novo_node_final/issues"
+  },
+  "homepage": "https://github.com/rfka/modulo_03_novo_node_final#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gitignore": "^0.7.0"
+  }
+}
