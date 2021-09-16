@@ -26,6 +26,10 @@ if(process.env.NODE_ENV !== 'production') {
   
   const tdListRouter = require('./routers/tdlist-routers');
   app.use('/tarefas',tdListRouter);
+
+  app.get('/', (req, res) => {
+    res.send('Backend lista de Tarefas!!');
+  });
   
   app.listen(process.env.PORT || port, ()=> {
     console.info(`Servidor rodando http://localhost:${port}`);

@@ -35,7 +35,7 @@ router.get('/findById/:id', async (req, res) => {
 });
 
 router.get('/findByName/:name', async (req, res) => {
-    await TdList.find({nome : req.params.name})
+    await TdList.find({nomeTarefa : req.params.name})
     .then((tarefa) => {
         res.status(200).send(tarefa);
     })
